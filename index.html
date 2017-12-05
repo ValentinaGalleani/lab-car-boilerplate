@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<!-- Navbar -->
 	<header class="cabezera">
-		<div class="row">
+	<div class="container">
 			<div class="col-md-12">
 				<nav class="navbar navbar-default navbar-fixed-top">
 					<div class="container-fluid">
@@ -23,7 +24,7 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#"><img class="img-responsive" src="assets/images/logoForma.png" alt=""></a>
+							<img class="img-responsive" src="assets/images/logoForma.png" alt="">
 						</div>
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -36,6 +37,7 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 			</div>
+		
 		</div>
 	</header>
 	<!-- Fin Navbar -->
@@ -44,7 +46,7 @@
 		<!-- jumbotron -->
 		<!-- sección dos -->
 		<div class="row">
-			<div class="pull-right col-md-5">
+			<div class="col-md-5 pull-right">
 				<div class="jumbotron seccion-2">
 					<h3>Disfruta del viaje <br>
 						Eres dueño de tu tiempo
@@ -74,7 +76,7 @@
 					<div class="jumbotron seccion-3">
 						<div class="row">
 							<div class="col-md-6 cell-phone">
-								<img src="assets/images/iPhone6Plus.png" alt="">
+								<img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="">
 							</div>
 							<div class="col-md-6 column-2">
 								<h2>Descarga la nueva app</h2>
@@ -89,55 +91,124 @@
 		<!--fin seccion tres  -->
 		<!-- inicio sección 4 -->
 		<section class="image-background img-responsive">
-		<div class="row">
-			<div class="col-md-4 pull-right">
-				<div class="jumbotron background-black">
-					<h3><strong>Conduce cuando quieras</strong></h3>
-					<p>LibCar es una opción flexible para alcanzar tus metas financieras.</p>
-					<p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en conductor</a></p>
-				</div>
+			<div class="row">
+				<div class="col-md-4 pull-right">
+					<div class="jumbotron background-black">
+						<h3><strong>Conduce cuando quieras</strong></h3>
+						<p>LibCar es una opción flexible para alcanzar tus metas financieras.</p>
+						<p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en conductor</a></p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- fin sección 4 -->
 		<!-- inicio sección 5 -->
-<section class="background-orange-2">
-		<div class="container">
-		<div class="row">
-		<form class="form-horizontal">
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="pwd">Password:</label>
-    <div class="col-sm-10"> 
-      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <div class="checkbox">
-        <label><input type="checkbox"> Remember me</label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group"> 
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </div>
-  </div>
-</form>
-</div>
-</div>
+		<section class="background-orange-2">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 formulary">
+						<h1>Tarifas</h1>
+						<p>Consulta las tarifas LabCar aquí</p>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="email"><img src="assets/images/shape.png" alt=""></label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="email" placeholder="Ingrese su punto de partida">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="pwd"><img src="assets/images/shape2.png" alt=""></label>
+								<div class="col-sm-10"> 
+									<input type="password" class="form-control" id="pwd" placeholder="Ingrese su destino">
+								</div>
+							</div>
+
+							<div class="form-group"> 
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-default">¡TRAZAR RUTA!</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-6 map">
+					<div class="border-map">
+						<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44501940.4533278!2d-76.96252486724902!3d-15.684203544122393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512437487717" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+		<!-- 	fín sección 5 -->
+		<!-- Inicio footer -->
+		<footer class="background-gray">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 foot">
+						<img src="assets/images/logoBlanco.png" alt="">
+						<hr>
+						<div class="row">
+							<div class="col-md-3 icon">
+							<div class="iconos">
+								<!-- iconos -->
+								<a href="" id="border1"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="" id="border3"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="" id="border2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								<a href="" id="border4"><i class="fa fa-apple" aria-hidden="true"></i></a>
+								<a  href="" id="border5"><i class="fa fa-play" aria-hidden="true"></i></a>
+								</div>
+								</div>
+							<div class="col-md-3 column-1">
+								<ul>
+									<li>Viaja</li>
+									<li>Conduce</li>
+									<li>Ciudades</li>
+									<li>Ciudades</li>
+									<li>Entregas</li>
+									<li>Cómo funciona?</li>
+									<li>Países</li>
+									<li>Seguridad</li>
+									</ul>
+							</div>
+							<div class="col-md-3 column-2">
+							<ul>
+									<li>Oportunidades</li>
+									<li>Nuestra historia</li>
+									<li>Api de LabCar</li>
+									<li>Eventos</li>
+									<li>Desarrolladores</li>
+									<li>Servicios</li>
+									<li>Laboratoria</li>
+									<li>Coders</li>
+						</ul>
+							</div>
+							<div class="col-md-3 column-img">
+							<div class="images">
+								<img src="assets/images/appstore.png" alt="">
+								<img src="assets/images/enBadgeWebGeneric.png" alt="">
+								</div>
+							</div>
+							<div class="col-md-12 copyright">
+								<hr>
+								<h6>©2017 LabCar technologies Inc.</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		
 
 
 
 
-		<!-- Scripts -->
+
+
+
+
+	<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>

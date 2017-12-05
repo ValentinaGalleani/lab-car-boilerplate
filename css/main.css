@@ -1,9 +1,26 @@
 /* Los estilos de tu proyecto */
+/*modifiqué row para que no se desborde*/
+*{
+	overflow-x: hidden;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
+/*cabezera*/
 .navbar-default{
 	border: none;
 	background-color: #FFF;
+	height: 7em;
 }
+
+
+.navbar-toggle{
+	float:left;
+}
+/*fin cabezera*/
+/*seccion 1*/
 /*imagen*/
 .image-taxi{
 	background-image: url(../assets/images/taxi.jpg);
@@ -12,15 +29,19 @@
 	background-position: bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
 
+}
+/*fin seccion 1*/
+/*seccion 2*/
 /*jumbotron*/
 .seccion-2{
 	background-color: #F7B617;
 	color: #FFF;
-	margin-top: 10em;
+	margin-top: 13em;
 	padding-right:5em;
-	padding-left: 5em; 
+	padding-left: 5em;
+	margin-right: -1.1em;
+
 }
 .image-taxi .btn-primary{
 	  color: #000;
@@ -31,11 +52,13 @@
 .center{
 	text-align: center;
 }
-/*Segunda sección phone*/
+
+/*fin seccion 2*/
+/*sección 3 */
 .background-orange{
 	background-color: #F7B617; 
 	width: 100%;
-	height: 48em;
+	height: auto;
 
 }
 
@@ -44,7 +67,10 @@
 	border: 1px solid #fff;
 	border-left: none;
 	margin-top: 6em;
+	
+
 }
+
 .background-orange .column-2{
 	color: #fff;
 	padding-right: 6em;
@@ -63,11 +89,14 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 	object-fit: cover;
+	overflow-y: hidden;
 
 }
 .background-black{
 	background-color: rgba(0,0,0,0.7);
 	height: 30em;
+	margin-right: -1.1em;
+
 }
 .background-black h3, .background-black p, .background-black a{
 	color: #fff;
@@ -87,5 +116,71 @@
 .background-orange-2{
 	background-color: #F7B617; 
 	width: 100%;
-	height: 48em;
+	height: auto;
+}
+
+.formulary{
+	color: #fff;
+	padding-right: 19em;
+	margin-top: 3em;
+	padding-bottom: 10em;
+}
+.formulary h1{
+	overflow-y: hidden;
+}
+/*mapa*/
+.map iframe {
+  width: 35em;
+  height: 35em;
+	margin-top: 1em;
+
+}
+.border-map{
+	border: 1px solid #fff;
+	height: 35em;
+	width: 35em;
+	padding-left: 0.5em;
+}
+/*input formulario*/
+.form-group input {
+	background-color: transparent;
+	border: 1px solid #fff;
+}
+.placeholder{
+	color: #fff;
+}
+/*fin seccion 5*/
+/*inicio footer*/
+.background-gray{
+	background-color: #2B2B2B;
+	width: 100%;
+	height: auto;
+}
+.foot img{
+	width: 7em;
+	height: auto;
+	padding-bottom: 1em;
+
+	
+}
+/*iconos*/
+.icon i {
+	color: #fff;
+}
+.iconos{
+	margin-top: 13em;
+}
+.column-1 li, .column-2 li{
+	color: #fff;
+	list-style: none;
+	padding-bottom: 1.3em;
+}
+.column-img{
+	width: 1em;
+}
+.images{
+	margin-top: 9em;
+}
+.copyright h6{
+	color: #fff;
 }
