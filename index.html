@@ -8,11 +8,12 @@
 	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<!-- Navbar -->
 	<header class="cabezera">
-		
+		<div class="container">
 			<div class="row menu">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
 					<nav class="navbar navbar-default navbar-fixed-top">
@@ -39,16 +40,14 @@
 					</nav>
 				</div>
 			</div>
-		
+		</div>
 	</header>
 	<!-- Fin Navbar -->
 	<!-- sección dos -->
 	<section class="image-taxi img-responsive">
-
-		
-		<!-- versión de escritorio -->
+	<!-- versión de escritorio -->
 		<div class="row">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="hidden-xs hidden-sm col-md-offset-7 col-md-5 col-lg-offset-7 col-lg-5">
 				<div class="jumbotron seccion-2">		<!-- jumbotron -->
 					<h3>Disfruta del viaje <br>
@@ -70,24 +69,25 @@
 					<p><a class="btn btn-primary btn-lg " href="#" role="button">Conviértete en un conductor</a></p>
 				</div>
 			</div>
-			<!-- version responsive para móviles y tablets -->
-			<div class="row">
-				<div class="col-xs-offset-2 col-xs-10 col-sm-offset-6 col-sm-6 hidden-md hidden-lg pull-right">
+			<!-- version responsive para dispositivos móviles -->
+			<div class="col-xs-offset-2 col-xs-10 col-sm-offset-6 col-sm-6 hidden-md hidden-lg pull-right">
 					<div class="jumbotron seccion-2">
 						<h3>Comienza a viajar con <img src="assets/images/logoBlanco.png" alt=""></h3>
 						<p><a class="btn btn-primary btn-lg" href="#" role="button">Descarga el app</a></p>
 					</div>
 				</div>
-			</div>
+			
 		</div>
 	</div>
 	</div>
 </section>
 <!-- fin sección dos -->
 <!-- seccion tres -->
+<!-- versión de escritorio -->
 <section class="background-orange">
+<div class="container-fluid">
 	<div class="row two-columns">
-		<div class="col-md-9">
+		<div class="col-md-9 hidden-xs hidden-sm columnas">
 			<div class="jumbotron seccion-3">
 				<div class="row">
 					<div class="col-md-6 cell-phone">
@@ -101,13 +101,43 @@
 				</div>
 			</div>
 		</div>
+
+<!-- version responsive para dispositivos móviles -->
+<div class="container">
+<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 hidden-md hidden-lg columnas">
+			<div class="jumbotron seccion-3">
+				<div class="row">
+					<div class="col-md-6 cell-phone">
+					<h2>La nueva app</h2>
+						<img class="img-responsive" src="assets/images/iPhone6Plus.png" alt="">
+					</div>
+					<div class="col-md-6 column-2">
+						</div>	
+				</div>
+			</div>
+			<p>LLega a tu destino aún más rápido</p>
+		</div>
+</div>
+</div>
 	</div>
 </section>
 <!--fin seccion tres  -->
 <!-- inicio sección 4 -->
 <section class="image-background img-responsive">
 	<div class="row">
-		<div class="col-md-4 pull-right">
+	<!-- versión de escritorio -->
+		<div class=" col-md-4 col-lg-4 hidden-xs hidden-sm pull-right">
+			<div class="jumbotron background-black">
+				<h3><strong>Conduce cuando quieras</strong></h3>
+				<p>LibCar es una opción flexible para alcanzar tus metas financieras.</p>
+				<p><a class="btn btn-primary btn-lg" href="#" role="button">Conviértete en conductor</a></p>
+			</div>
+				</div>
+
+
+
+<!-- version responsive para dispositivos móviles -->
+				<div class="col-xs-12 col-sm-12 hidden-md hidden-lg pull-right">
 			<div class="jumbotron background-black">
 				<h3><strong>Conduce cuando quieras</strong></h3>
 				<p>LibCar es una opción flexible para alcanzar tus metas financieras.</p>
@@ -115,13 +145,14 @@
 			</div>
 				</div>
 			</div>
-		</section>
+</section>
 		<!-- fin sección 4 -->
 		<!-- inicio sección 5 -->
 		<section class="background-orange-2">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 formulary">
+				<!-- versión de escritorio -->
+					<div class="col-md-6 col-lg-6 hidden-xs hidden-sm formulary">
 						<h1>Tarifas</h1>
 						<p>Consulta las tarifas LabCar aquí</p>
 						<form class="form-horizontal">
@@ -150,6 +181,31 @@
 							<iframe class="img-responsive" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d44501940.4533278!2d-76.96252486724902!3d-15.684203544122393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512437487717" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div>
+<!-- version responsive para dispositivos móviles -->
+<div class="col-xs-12 col-sm-12 hidden-md hidden-lg formulary">
+						<h1>Tarifas</h1>
+						<p>Consulta las tarifas LabCar aquí</p>
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="email"><img src="assets/images/shape.png" alt=""></label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="email" placeholder="Ingrese su punto de partida">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label col-sm-2" for="pwd"><img src="assets/images/shape2.png" alt=""></label>
+								<div class="col-sm-10"> 
+									<input type="password" class="form-control" id="pwd" placeholder="Ingrese su destino">
+								</div>
+							</div>
+								<div class="form-group"> 
+								<div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="btn btn-default">¡TRAZAR RUTA!</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -161,7 +217,7 @@
 					<div class="col-md-12 foot">
 						<img src="assets/images/logoBlanco.png" alt="">
 						<hr>
-						<div class="row">
+						<div class="row four-files">
 							<div class="col-md-3 icon">
 								<div class="iconos">
 									<!-- iconos -->
@@ -211,19 +267,7 @@
 				</div>
 			</div>
 		</footer>
-
-
-
-		
-
-
-
-
-
-
-
-
-		<!-- Scripts -->
+<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</body>

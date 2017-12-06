@@ -32,8 +32,8 @@
 	background-repeat: no-repeat;
 
 }
-/*fin seccion 1*/
-/*seccion 2*/
+
+
 /*jumbotron*/
 .seccion-2{
 	background-color: #F7B617;
@@ -41,7 +41,8 @@
 	margin-top: 13em;
 	padding-right:5em;
 	padding-left: 5em;
-	margin-right: -1.1em;
+	margin-right: -2.1em;
+	
 
 }
 .seccion-2 h3{
@@ -75,44 +76,51 @@
 .seccion-3{
 	background-color: transparent; 
 	border: 1px solid #fff;
-	border-left: none;
-	margin-top: 6em;
+	margin-top: 3em;
+	
 	
 
+}
+.two-columns{
+	align-content: left;
+	margin-right: 1em;
+	padding-right: 2em;
 }
 
 .background-orange .column-2{
 	color: #fff;
 	padding-right: 6em;
 }
-/*imágen celular*/
-.cell-phone{
-	padding-left: 6em;
+.columnas{
+	margin-left: -3em;
 }
 /*fin seccion 3*/
 /*inicio seccion 4*/
 .image-background{
 	background-image: url(../assets/images/conduce.jpg);
-	height: 30em;
+	height: auto;
 	width: 100%;
 	background-position: center;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	object-fit: cover;
-	overflow-y: hidden;
+	
 
 }
 .background-black{
 	background-color: rgba(0,0,0,0.7);
-	height: 30em;
 	margin-right: -1.1em;
-
+}
+.jumbotron{
+	margin-bottom: none;
 }
 .background-black h3, .background-black p, .background-black a{
 	color: #fff;
 	padding-right: 1em;
 	padding-left: 1em;
 	margin-top: 1em;
+	
+
 }
 .background-black h3{
 	margin-top: 3em;
@@ -140,8 +148,8 @@
 }
 /*mapa*/
 .map iframe {
-  width: 35em;
-  height: 35em;
+  width: 33em;
+  height: 33em;
 	margin-top: 1em;
 
 }
@@ -167,15 +175,18 @@
 	width: 7em;
 	height: auto;
 	padding-bottom: 1em;
-
+	margin-top: 2em;
 	
+}
+.four-files{
+	margin-top: 1em;
 }
 /*iconos*/
 .icon i {
 	color: #fff;
 }
 .iconos{
-	margin-top: 13em;
+	margin-top: 19em;
 }
 .column-1 li, .column-2 li{
 	color: #fff;
@@ -186,7 +197,7 @@
 	width: 1em;
 }
 .images{
-	margin-top: 9em;
+	margin-top: 11em;
 }
 .copyright h6{
 	color: #fff;
