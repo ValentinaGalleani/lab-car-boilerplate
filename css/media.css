@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  [class*="col-"] {
+    max-width:100%;
+    flex: none;
+  }
+  
+
+
+
+}

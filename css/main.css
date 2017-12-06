@@ -9,7 +9,6 @@
 /*cabezera*/
 .menu nav{
 	padding-top: 2em;
-
 }
 .navbar-default{
 	border: none;
@@ -22,7 +21,7 @@
 	float:left;
 }
 /*fin cabezera*/
-/*seccion 1*/
+/*seccion2*/
 /*imagen*/
 .image-taxi{
 	background-image: url(../assets/images/taxi.jpg);
